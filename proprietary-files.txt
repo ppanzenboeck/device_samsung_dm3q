@@ -1,4 +1,4 @@
-# All unpinned blobs are extracted from S918BXXS6CXI4
+# All unpinned blobs are extracted from S918BXXU7CXK4
 
 # ACDB
 vendor/etc/audconf/OPEN/acdb_cal.acdb
