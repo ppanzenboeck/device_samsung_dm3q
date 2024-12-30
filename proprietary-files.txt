@@ -233,6 +233,3 @@ vendor/firmware/kiwi/bdwlan.elf2
 vendor/firmware/kiwi/phy_ucode20.elf
 vendor/firmware/kiwi/qdss_trace_config_v2.cfg
 vendor/firmware/kiwi/regdb.bin
-
-# WiFi
-vendor/etc/wifi/kiwi_v2/WCNSS_qcom_cfg.ini
