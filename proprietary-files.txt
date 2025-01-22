@@ -8,18 +8,40 @@ vendor/etc/audconf/OPEN/workspaceFileXml.qwsp
 vendor/etc/audio/sku_kalama/mixer_paths.xml
 vendor/etc/dolby/dax-default.xml
 
+# Audio firmware
+vendor/firmware/SoundBoosterParam.bin
+
 # Bluetooth firmware
 vendor/firmware/bt_nvm_loading.xml
 
 # Camera
+vendor/etc/sensors/config/kailua_irq.json
+vendor/etc/sensors/config/kailua_lps22hh_0.json
+vendor/etc/sensors/config/kailua_lsm6dso_0_0.json
+vendor/etc/sensors/config/lsm6dso_0.json
 vendor/lib64/camera/com.samsung.ois.mcu_stm32g.so
+vendor/lib64/camera/com.samsung.sensor.hi1337.so
+vendor/lib64/camera/com.samsung.sensor.hi847.so
+vendor/lib64/camera/com.samsung.sensor.imx258.so
+vendor/lib64/camera/com.samsung.sensor.imx374.so
+vendor/lib64/camera/com.samsung.sensor.imx471.so
+vendor/lib64/camera/com.samsung.sensor.imx564.so
+vendor/lib64/camera/com.samsung.sensor.imx754.so
+vendor/lib64/camera/com.samsung.sensor.s5k2ld.so
+vendor/lib64/camera/com.samsung.sensor.s5k3j1.so
+vendor/lib64/camera/com.samsung.sensor.s5k3k1.so
+vendor/lib64/camera/com.samsung.sensor.s5k3lu.so
+vendor/lib64/camera/com.samsung.sensor.s5kgn3.so
+vendor/lib64/camera/com.samsung.sensor.s5khp2.so
 vendor/lib64/camera/com.samsung.sensormodule.0_lsi_s5khp2.bin
 vendor/lib64/camera/com.samsung.sensormodule.12_lsi_s5k3lu_full.bin
 vendor/lib64/camera/com.samsung.sensormodule.1_lsi_s5k3lu.bin
 vendor/lib64/camera/com.samsung.sensormodule.2_sony_imx564.bin
 vendor/lib64/camera/com.samsung.sensormodule.3_sony_imx754_x3.bin
 vendor/lib64/camera/com.samsung.sensormodule.6_sony_imx754_x10.bin
+vendor/lib64/camera/com.samsung.tuned.lsi_s5k3lu.bin
 vendor/lib64/camera/com.samsung.tuned.lsi_s5khp2.bin
+vendor/lib64/camera/com.samsung.tuned.sony_imx564.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx754_x10.bin
 vendor/lib64/camera/com.samsung.tuned.sony_imx754_x3.bin
 vendor/lib64/camera/components/com.qti.eisv2.so
@@ -217,6 +239,8 @@ vendor/firmware/00_generic_xtalk_shape.bin
 vendor/firmware/hmtbtfw20.tlv
 vendor/firmware/hmtnv20.b21
 vendor/firmware/hmtnv20.bin
+vendor/firmware/mfc/mfc_fw_flash.bin
+vendor/firmware/mfc/mfc_fw_flash_cps4038.bin
 vendor/firmware/vl53l8.bin
 vendor/firmware/wez02_dm3_c0.bin
 vendor/firmware/wez02_dm3_c1.bin
