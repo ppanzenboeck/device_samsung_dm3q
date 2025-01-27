@@ -5,4 +5,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_dm3q.mk
+    $(LOCAL_DIR)/derp_dm3q.mk
+
+COMMON_LUNCH_CHOICES :=  \
+    derp_dm3q-user
